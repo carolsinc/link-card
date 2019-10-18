@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h2 {
 font-family: Dosis, sans-serif;
 font-weight:bold;
 color: #512200;
@@ -27,7 +27,7 @@ p {
   padding: 0 1rem;
 }
 
-ul {
+dl {
   border-top: 2px solid #9a816d;
   border-bottom:2px solid #9a816d;
   margin: 0 1rem 1rem;
@@ -37,13 +37,14 @@ ul {
 
 .category, .info {
     color:#512200;
-    min-width: 50%;
+    min-width: 45%;
     display: inline-block;
     font-size:.875rem;
 }
 
 .info {
   font-style: italic;
+  margin-inline-start: 0;
 }
 
 .btn {
@@ -59,9 +60,7 @@ ul {
   margin: 0 7rem;
 }
 
-.btn:hover {
-  background-color: #512200;
-}
+
 
 .link-card {
   border: 3px solid #9a816d;
@@ -76,4 +75,8 @@ a {
 
 .link-card:hover {
   background-color: #cabdb2;
+}
+
+.btn:hover {
+  background-color: #512200;
 }
