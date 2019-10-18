@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   color: #512200;
@@ -61,7 +61,7 @@ dl {
   margin: 0 7rem;
 }
 
-.link-card {
+.body {
   border: 3px solid #9a816d;
   border-radius: 3px;
   background-color: #dcd4cd;
@@ -72,7 +72,11 @@ a {
   text-decoration: none;
 }
 
-.link-card:hover {
+.link-card {
+  margin: 0;
+}
+
+.body:hover {
   background-color: #cabdb2;
 }
 
