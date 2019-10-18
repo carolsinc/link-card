@@ -9,16 +9,17 @@ html {
 }
 
 h2 {
-font-family: Dosis, sans-serif;
-font-weight:bold;
-color: #512200;
-font-size: 1.5rem;
-padding: 0 1rem;
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  color: #512200;
+  font-size: 1.5rem;
+  padding: 0 1rem;
 }
 
 p {
   margin: 0;
 }
+
 .text {
   font-family: Georgia, serif;
   color: #512200;
@@ -29,22 +30,22 @@ p {
 
 dl {
   border-top: 2px solid #9a816d;
-  border-bottom:2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
   margin: 0 1rem 1rem;
   padding: 0;
   list-style-type: none;
 }
 
 .category, .info {
-    color:#512200;
-    min-width: 45%;
-    display: inline-block;
-    font-size:.875rem;
+  color: #512200;
+  min-width: 45%;
+  display: inline-block;
+  font-size: .875rem;
 }
 
 .info {
   font-style: italic;
-  margin-inline-start: 0;
+  margin: 0;
 }
 
 .btn {
@@ -59,8 +60,6 @@ dl {
   text-align: center;
   margin: 0 7rem;
 }
-
-
 
 .link-card {
   border: 3px solid #9a816d;
