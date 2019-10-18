@@ -14,6 +14,7 @@ html {
   color: #512200;
   font-size: 1.5rem;
   padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 p {
@@ -24,27 +25,29 @@ p {
   font-family: Georgia, serif;
   color: #512200;
   display: inline-block;
-  font-size: .875rem;
-  padding: 0 1rem;
+  font-size: 1rem;
+  padding: 0 1rem 1rem;
 }
 
 dl {
   border-top: 2px solid #9a816d;
   border-bottom: 2px solid #9a816d;
   margin: 0 1rem 1rem;
-  padding: 0;
+  padding: .6rem 0 1rem;
   list-style-type: none;
+  font-size: .875rem;
 }
 
 .category, .info {
   color: #512200;
   min-width: 45%;
   display: inline-block;
-  font-size: .875rem;
+  font-size: .9rem;
 }
 
 .info {
   font-style: italic;
+  font-size: .9rem;
   margin: 0;
 }
 
@@ -53,19 +56,22 @@ dl {
   background-color: #785439;
   border-radius: 8px;
   color: #f0eee8;
-  padding: .4em .75em .5em;
+  padding: .3em 0 .4em;
   font-family: Dosis, sans-serif;
   font-size: 1.125rem;
+  font-weight: bold;
   display: block;
   text-align: center;
-  margin: 0 7rem;
+  margin: 0 auto;
+  min-width: 40%;
+  max-width: 100px;
 }
 
 .body {
   border: 3px solid #9a816d;
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: #dcd4cd;
-  padding: 1rem;
+  padding: 0 0 1rem;
 }
 
 a {
@@ -76,7 +82,7 @@ a {
   margin: 0;
 }
 
-.body:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
